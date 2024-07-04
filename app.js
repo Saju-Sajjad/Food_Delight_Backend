@@ -25,7 +25,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:5173",
+    origin: "https://food-delight-frontend.vercel.app",
   })
 );
 
